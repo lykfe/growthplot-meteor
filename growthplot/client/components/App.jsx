@@ -7,6 +7,7 @@ App = React.createClass({
           <h1>growthplot</h1>
         </header>
 
+        <AccountsUIWrapper />
         App will be housed here
 
       </div>
