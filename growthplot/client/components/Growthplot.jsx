@@ -4,6 +4,7 @@ if (Meteor.isClient) {
   });
 
   Meteor.startup(function () {
-    React.render(<App />, document.getElementById('app-render-target'));
+	React.render(<Navigation />, document.getElementById('growthplot-navigation'));
+	React.render(<Homepage />, document.getElementById('growthplot-home-page'));
   });
 }
